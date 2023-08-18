@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- DaisyUI & Tailwind Links -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- social link icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">  
+    <link rel="icon" href="images/Frame.png" type="image/png"> 
+<style>
+
+
+</style>
+    
+    <title>Discount World</title>
+</head>
+
+
+<body class="bg-gray-100">
+
+    <header class="bg-black shadow-500 text-white p-4 flex flex-row justify-between items-center ">
+        <div>   
+            <h1 class="text-5xl font-bold text-center"><span class="text-red-400 ">Diamond Universe</span></h1>
+        </div>
+        
+       <div class="avatar online">
+        <div class="">
+            <img class="online" src="./resourses/cart-70-48.png" alt="" style="width: 30px; height: 30px;">
+        </div>
+      </div>
+    </header>
+
+    <main class="container w-11/12 mx-auto my-10">
+        <h1 class="text-5xl font-bold text-center mt-6 p-4">Welcome to <span class="text-red-400 ">Diamond Universe</span></h1>
+        <h1 class="text-4xl font-semibold text-center mb-r p-4">Buy from the most authentic shop in Bangladesh.</h1>
+
+        <!-- product section -->
+        <section>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <!-- card 1 -->
+                <div class="bg-white shadow-xl rounded-xl p-4">
+                    <figure>
+                        <img src="https://listany-prod.s3.amazonaws.com/images/Diamond-World/box_3_ring.jpg"
+                            alt="Jewellary" class="w-full rounded-xl" />
+                    </figure>
+                    <div class="mt-4 text-center">
+                        <h2 class="text-lg font-semibold">Royal Diamond Ring</h2>
+                        <p class="mt-2">$<span id="span1">50000</span></p>
+                        <div class="mt-4">
+                            <button id="item_1" class="buynow-btn bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded-full">Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 2 -->
+                <div class="bg-white shadow-xl rounded-xl p-4">
+                    <figure>
+                        <img src="https://listany-prod.s3.amazonaws.com/images/Diamond-World/box_2_platinumdwl.webp"
+                            alt="Jewellary" class="w-full rounded-xl" />
+                    </figure>
+                    <div class="mt-4 text-center">
+                        <h2 class="text-lg font-semibold">Platinum Engagement Ring</h2>
+                        <p class="mt-2">$<span id="span2">90000</span></p>
+                        <div class="mt-4">
+                            <button id="item_2" class="buynow-btn bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded-full">Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 3 -->
+                <div class="bg-white shadow-xl rounded-xl p-4">
+                    <figure>
+                        <img src="https://listany-prod.s3.amazonaws.com/images/Diamond-World/box_1_neckdwl.webp"
+                            alt="Jewellary" class="w-full rounded-xl" />
+                    </figure>
+                    <div class="mt-4 text-center">
+                        <h2 class="text-lg font-semibold">Pricessless Diamond Necklace</h2>
+                        <p class="mt-2">$<span id="span3">70000</span></p>
+                        <div class="mt-4">
+                            <button id="item_3" class="buynow-btn bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded-full">Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- card 4 -->
+                <div class="bg-white shadow-xl rounded-xl p-4">
+                    <figure>
+                        <img src="https://static-01.daraz.com.bd/p/9c9976bd61b7c041345f5e545107998c.jpg"
+                            alt="Jewellary" class="w-full rounded-xl" />
+                    </figure>
+                    <div class="mt-4 text-center">
+                        <h2 class="text-lg font-semibold">Ancient Diamond Necklace</h2>
+                        <p class="mt-2">$<span id="span4">50000</span></p>
+                        <div class="mt-4">
+                            <button id="item_4" class="buynow-btn bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded-full">Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 5 -->
+                <div class="bg-white shadow-xl rounded-xl p-4">
+                    <figure>
+                        <img src="./resourses/crawn.jpg"
+                            alt="Jewellary" class="w-full rounded-xl" />
+                    </figure>
+                    <div class="mt-4 text-center">
+                        <h2 class="text-lg font-semibold">Priencess Crawn</h2>
+                        <p class="mt-2">$<span id="span5">50000</span></p>
+                        <div class="mt-4">
+                            <button id="item_5" class="buynow-btn bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded-full">Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 6 -->
+                <div class="bg-white shadow-xl rounded-xl p-4">
+                    <figure>
+                        <img src="./resourses/necklace2.jpeg"
+                            alt="Jewellary" class="w-full rounded-xl" />
+                    </figure>
+                    <div class="mt-4 text-center">
+                        <h2 class="text-lg font-semibold">Green Perl Necklace</h2>
+                        <p class="mt-2">$<span id="span6">50000</span></p>
+                        <div class="mt-4">
+                            <button id="item_6" class="buynow-btn bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded-full">Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 7 -->
+                <div class="bg-white shadow-xl rounded-xl p-4">
+                    <figure>
+                        <img src="./resourses/ring.jpg"
+                            alt="Jewellary" class="w-full rounded-xl" />
+                    </figure>
+                    <div class="mt-4 text-center">
+                        <h2 class="text-lg font-semibold">Simple One Stone Diamond Ring</h2>
+                        <p class="mt-2">$<span id="span7">50000</span></p>
+                        <div class="mt-4">
+                            <button id="item_7" class="buynow-btn bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded-full">Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 8 -->
+                <div class="bg-white shadow-xl rounded-xl p-4">
+                    <figure>
+                        <img src="resourses/baslet.jpg"
+                            alt="Jewellary" class="w-full rounded-xl" />
+                    </figure>
+                    <div class="mt-4 text-center">
+                        <h2 class="text-lg font-semibold">Diamond Baslet</h2>
+                        <p class="mt-2">$<span id="span8">50000</span></p>
+                        <div class="mt-4">
+                            <button id="item_8" class="buynow-btn bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded-full">Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- ring collection -->
+                <!-- card 9 -->
+                <div class="bg-white shadow-xl rounded-xl p-4">
+                    <figure>
+                        <img src="resourses/ring5.jpg"
+                            alt="Jewellary" class="w-full rounded-xl" />
+                    </figure>
+                    <div class="mt-4 text-center">
+                        <h2 class="text-lg font-semibold">Diamond Paired Ring</h2>
+                        <p class="mt-2">$<span id="span9">50000</span></p>
+                        <div class="mt-4">
+                            <button id="item_9" class="buynow-btn bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded-full">Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 10-->
+                <div class="bg-white shadow-xl rounded-xl p-4">
+                    <figure>
+                        <img src="resourses/ring6.jpg"
+                            alt="Jewellary" class="w-full rounded-xl" />
+                    </figure>
+                    <div class="mt-4 text-center">
+                        <h2 class="text-lg font-semibold">One Stone Basic Diamond Ring</h2>
+                        <p class="mt-2">$<span id="span10">50000</span></p>
+                        <div class="mt-4">
+                            <button id="item_10" class="buynow-btn bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded-full">Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 11 -->
+                <div class="bg-white shadow-xl rounded-xl p-4">
+                    <figure>
+                        <img src="resourses/ring7.jpg"
+                            alt="Jewellary" class="w-full rounded-xl" />
+                    </figure>
+                    <div class="mt-4 text-center">
+                        <h2 class="text-lg font-semibold">Twisted Ring</h2>
+                        <p class="mt-2">$<span id="span11">50000</span></p>
+                        <div class="mt-4">
+                            <button id="item_11" class="buynow-btn bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded-full">Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 12 -->
+                <div class="bg-white shadow-xl rounded-xl p-4">
+                    <figure>
+                        <img src="resourses/ring8.jpg"
+                            alt="Jewellary" class="w-full rounded-xl" />
+                    </figure>
+                    <div class="mt-4 text-center">
+                        <h2 class="text-lg font-semibold">Blue Diamond Ring</h2>
+                        <p class="mt-2">$<span id="span12">50000</span></p>
+                        <div class="mt-4">
+                            <button id="item_12" class="buynow-btn bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded-full">Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+           
+           
+           
+            </div>
+          
+</section>
+<section>
+    <!-- Coupon Section -->
+<div class="text-center mt-8">
+    <p class="text-xl">Your cart value is: $<span id="total-cost" class="font-bold">0</span></p>
+    <h3 class="text-2xl font-semibold mt-4">
+        Apply Coupon to get <span class="text-amber-400">30% </span>discount
+    </h3>
+    <p id="coupon_code" class="font-extrabold text-red-600 text-center">COUPON30</p>
+    <input id="coupon_input" type="text" placeholder="Enter coupon code here"
+        class="block p-3 border-2 border-red-400 w-full max-w-xs rounded-2xl mx-auto mt-4" />
+    <button id="coupon_btn" class="bg-white border border-red-400 text-red-400 hover:bg-red-400 hover:text-white py-2 px-4 rounded-full mt-4">Confirm</button>
+</div>
+        </section>
+    </main>
+
+ <!-- Footer section -->
+ <footer class="footer-center footer p-10 text-primary-content bg-[#121212]">
+    <div class="space-y-5">
+      <div class="flex items-center gap-2">
+        <img src="" alt="" />
+        <h3 class="text-4xl font-semibold">Diamond World</h3>
+      </div>
+      <div>
+        <ul class="flex justify-center flex-wrap gap-5">
+          <li class="hover:text-red-500">Home</li>
+          <li class="hover:text-red-500 ">About Us</li>
+          <li class="hover:text-red-500">Shop</li>
+          <li class="hover:text-red-500 ">All Fruits</li>
+          <li class="hover:text-red-500 ">Support</li>
+          <li class="hover:text-red-500 ">My Account</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+        <div class="social-icons flex justify-center gap-5">
+          <div class="icons hover:text-blue-500 text-2xl">
+          <a href="https://www.facebook.com" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+      </div>
+          <div class="icons hover:text-blue-500 text-2xl">
+          <a href="https://twitter.com" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a></div>
+          <div class="icons hover:text-blue-500 text-2xl">
+          <a href="https://www.linkedin.com" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a></div>
+        </div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('item_1').addEventListener('click', function(){
+      totalCostCalculate('span1')
+    })
+    document.getElementById('item_2').addEventListener('click', function(){
+      totalCostCalculate('span2')
+    })
+    document.getElementById('item_3').addEventListener('click', function(){
+        totalCostCalculate('span3')
+    })
+    document.getElementById('item_4').addEventListener('click', function(){
+        totalCostCalculate('span4')
+        });
+    document.getElementById('item_5').addEventListener('click', function(){
+        totalCostCalculate('span5')
+        });
+    document.getElementById('item_6').addEventListener('click', function(){
+        totalCostCalculate('span6')
+        });
+    document.getElementById('item_7').addEventListener('click', function(){
+        totalCostCalculate('span7')
+        });
+    document.getElementById('item_8').addEventListener('click', function(){
+        totalCostCalculate('span8')
+        });
+    document.getElementById('item_9').addEventListener('click', function(){
+        totalCostCalculate('span9')
+        });
+    document.getElementById('item_10').addEventListener('click', function(){
+        totalCostCalculate('span10')
+        });
+    document.getElementById('item_11').addEventListener('click', function(){
+        totalCostCalculate('span11')
+        });
+    document.getElementById('item_12').addEventListener('click', function(){
+        totalCostCalculate('span12')
+        });
+
+
+    function totalCostCalculate(elemtId){
+    let cost= document.getElementById(elemtId).textContent
+    let costNum = parseFloat(cost);
+
+    let previousTotal = document.getElementById("total-cost").textContent;
+    let previousTotalNum = parseFloat(previousTotal);
+
+    let newTotal= previousTotalNum +costNum
+    document.getElementById("total-cost").innerText= newTotal       
+    
+  }
+</script>
+  <script src="applyCoupon.js"></script>
+
+</body>
+</html>
